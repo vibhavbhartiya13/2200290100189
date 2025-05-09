@@ -28,13 +28,12 @@ git clone https://github.com/your-username/your-repo-name.git](https://github.co
 cd backend
 npm install
 
-# Start backend in background (Unix/macOS)
-npm start &
+Start backend in background 
+npm start 
 
-# For Windows PowerShell, use:
-# Start-Process -NoNewWindow -FilePath "npm" -ArgumentList "start"
 
-# ----- SETUP FRONTEND -----
+
+ ----- SETUP FRONTEND -----
 cd ../frontend
 npm install
 npm run dev
