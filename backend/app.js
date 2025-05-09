@@ -4,7 +4,7 @@ const { fetchStockPrices } = require('./service/stock');
 const { pearsonCorrelation } = require('./utils/const');
 const app = express();
 
-app.use(cors()); // ✅ Enable CORS globally
+app.use(cors());
 
 const PORT = process.env.PORT || 3000;
 
