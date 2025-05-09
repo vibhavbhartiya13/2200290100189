@@ -20,3 +20,21 @@
 - **Access Code:** SxVeja  
 - **Client ID:** 4406c785-d53a-4c25-bc53-68adc36bed2e  
 - **Client Secret:** uVXyDxUSgttvMAKT
+# Clone the repo
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+# ----- SETUP BACKEND -----
+cd backend
+npm install
+
+# Start backend in background (Unix/macOS)
+npm start &
+
+# For Windows PowerShell, use:
+# Start-Process -NoNewWindow -FilePath "npm" -ArgumentList "start"
+
+# ----- SETUP FRONTEND -----
+cd ../frontend
+npm install
+npm run dev
