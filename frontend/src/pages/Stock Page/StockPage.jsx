@@ -16,7 +16,7 @@ import {
   Paper
 } from '@mui/material';
 
-const BACKEND_URL = 'http://localhost:3000'; // Change to your backend URL
+const BACKEND_URL = 'http://localhost:3000';
 
 const getAverage = (data) => {
   const sum = data.reduce((acc, cur) => acc + cur.price, 0);
@@ -85,7 +85,7 @@ const StockPage = () => {
     variant="contained"
     color="primary"
     onClick={() => navigate('/map')}
-    sx={{ height: '56px' }} // match Select height
+    sx={{ height: '56px' }}
   >
     Go to Map
   </Button>
