@@ -41,7 +41,7 @@ cd backend
 npm install
 npm start
 ```
-## TO RUN
+## TO RUN Backend
 ```bash
 node app.js
 ```
