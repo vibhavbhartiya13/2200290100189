@@ -21,8 +21,8 @@
 - **Client ID:** 4406c785-d53a-4c25-bc53-68adc36bed2e  
 - **Client Secret:** uVXyDxUSgttvMAKT
 # Clone the repo
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/your-username/your-repo-name.git](https://github.com/vibhavbhartiya13/2200290100189.git
+
 
 # ----- SETUP BACKEND -----
 cd backend
